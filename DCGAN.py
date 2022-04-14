@@ -1,6 +1,6 @@
 from keras.models import Sequential, Model, load_model
 from keras.layers import UpSampling2D, Conv2D, Activation, BatchNormalization, Reshape, Dense, Input, LeakyReLU, Dropout, Flatten, ZeroPadding2D
-from keras.optimizers import Adam
+from tensorflow.keras.optimizers import Adam
 
 import glob
 from PIL import Image
